@@ -1,17 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/main.css">
     <title>Document</title>
 </head>
 <body>
-    <header>
+    <header class="header">
         <div>
-            <h1> Página de Experimento Curso Git</h1>
+            <h1> Página de Apuntes Curso Git</h1>
         </div>
     </header>
-    
+    <div class="Tablas">
+        <p>
+            Comandos de la CMD:
+        </p>
+        <table class="tablaComandosCMD">
+            <tr class="Titulos">
+                <th> Comando</th>
+                <th> Funcion</th>
+            </tr>
+            <tr>
+                <td>cd</td>
+                <td>Ingresar una direccion en cmd</td>
+            </tr>
+
+        </table>
+
+    </div>
+
+    <div class="Tablas">
+        <p>
+            Comandos de Git:
+        </p>
+        <table class="tablaComandosGit">
+            <tr class="Titulos">
+                <th class="comando"> Comando</th>
+                <th> Funcion</th>
+            </tr>
+            <tr class="Filas">
+                <td class="comando">git Init</td>
+                <td>Iniciar un nuevo repositorio para git</td>
+            </tr>
+            <tr class="Filas">
+                <td class="comando">git diff</td>
+                <td>Mostrar todos los cambios que se han hecho</td>
+            </tr>
+
+            <tr class="Filas">
+                <td class="comando">.gitignote</td>
+                <td>
+                    Ignorar archivos que no queremos que sean rastreados: 
+                    *.back archivos de respaldo
+                    *~ archivos temporales
+                </td>
+            </tr>
+
+            <tr class="Filas">
+                <td class="comando">git commit --amend -- no-edit</td>
+                <td>
+                    Reparar un commit; es como hacer un segundo commit, pero sin que se registre de nuevo; para corregir algun detalle.
+                </td>
+            </tr>
+
+        </table>
+
+    </div>
+
 </body>
 </html>
